@@ -50,46 +50,12 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5948759007205764,
-            "y": 0.3125,
-            "uniqueID": 135030,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.678007290400972,
-            "y": 0.440625,
-            "uniqueID": 436936,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.55484387510008,
+            "y": 0.38125000000000003,
+            "uniqueID": 697056,
+            "ioValues": []
         },
         {
             "atomType": "Extrude",
@@ -103,14 +69,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5650060753341434,
-            "y": 0.6,
-            "uniqueID": 697056,
-            "ioValues": []
         },
         {
             "atomType": "Constant",
@@ -129,53 +87,12 @@
             "max": 20
         },
         {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.7437950360288231,
-            "y": 0.47500000000000003,
-            "uniqueID": 850912,
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7045636509207366,
+            "y": 0.534375,
+            "uniqueID": 252809,
             "ioValues": []
-        },
-        {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.6731470230862697,
-            "y": 0.76875,
-            "uniqueID": 594974,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 10
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.8558847077662131,
-            "y": 0.64375,
-            "uniqueID": 872268,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
         },
         {
             "atomType": "Output",
