@@ -7,14 +7,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.029623698959167333,
-            "y": 0.30624999999999997,
-            "uniqueID": 850912,
-            "ioValues": []
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.19688473520249222,
@@ -58,10 +50,18 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6236989591673339,
+            "y": 0.3875,
+            "uniqueID": 697056,
+            "ioValues": []
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2953271028037383,
-            "y": 0.64375,
+            "x": 0.4403522818254604,
+            "y": 0.6812499999999999,
             "uniqueID": 995303,
             "ioValues": [
                 {
@@ -69,14 +69,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.588470776621297,
-            "y": 0.525,
-            "uniqueID": 697056,
-            "ioValues": []
         },
         {
             "atomType": "Constant",
@@ -93,6 +85,14 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.7526020816653323,
+            "y": 0.46875,
+            "uniqueID": 850912,
+            "ioValues": []
         },
         {
             "atomType": "Output",
