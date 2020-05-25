@@ -108,6 +108,15 @@
             ]
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.5756605284227382,
+            "y": 0.75,
+            "uniqueID": 232979,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9835526315789473,
@@ -184,6 +193,13 @@
             "ap2Primary": false,
             "ap1ID": 995303,
             "ap2ID": 697056
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 995303,
+            "ap2ID": 232979
         }
     ],
     "fileTypeVersion": 1,
