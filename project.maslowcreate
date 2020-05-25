@@ -58,6 +58,22 @@
             "ioValues": []
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.10088070456365092,
+            "y": 0.75,
+            "uniqueID": 808700,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.4363490792634107,
@@ -69,22 +85,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.16697819314641746,
-            "y": 0.8562500000000001,
-            "uniqueID": 808700,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 10
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
         },
         {
             "atomType": "Assembly",
@@ -125,13 +125,6 @@
             "ap2ID": 995303
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 995303,
-            "ap2ID": 697056
-        },
-        {
             "ap1Name": "number",
             "ap2Name": "height",
             "ap2Primary": false,
@@ -144,6 +137,13 @@
             "ap2Primary": false,
             "ap1ID": 808700,
             "ap2ID": 217637
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 995303,
+            "ap2ID": 697056
         }
     ],
     "fileTypeVersion": 1,
