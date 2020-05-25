@@ -26,8 +26,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3122497998398719,
-            "y": 0.425,
+            "x": 0.32826261008807045,
+            "y": 0.1875,
             "uniqueID": 217637,
             "ioValues": [
                 {
@@ -35,6 +35,14 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.4771817453963171,
+            "y": 0.290625,
+            "uniqueID": 697056,
+            "ioValues": []
         },
         {
             "atomType": "Circle",
@@ -50,18 +58,23 @@
             ]
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.55484387510008,
-            "y": 0.38125000000000003,
-            "uniqueID": 697056,
-            "ioValues": []
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6052842273819056,
+            "y": 0.53125,
+            "uniqueID": 252809,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.17534027221777423,
-            "y": 0.771875,
+            "x": 0.1545236188951161,
+            "y": 0.821875,
             "uniqueID": 808700,
             "ioValues": [
                 {
@@ -82,19 +95,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7021617293835067,
-            "y": 0.540625,
-            "uniqueID": 252809,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.45636509207365894,
@@ -113,6 +113,19 @@
             "x": 0.9835526315789473,
             "y": 0.5,
             "ioValues": []
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7614091273018414,
+            "y": 0.8,
+            "uniqueID": 494746,
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 5
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -132,6 +145,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 697056,
+            "ap2ID": 252809
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 152919,
@@ -139,10 +159,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
+            "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": 697056,
-            "ap2ID": 252809
+            "ap1ID": 252809,
+            "ap2ID": 494746
         },
         {
             "ap1Name": "number",
