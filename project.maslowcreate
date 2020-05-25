@@ -50,6 +50,31 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.5948759007205764,
+            "y": 0.3125,
+            "uniqueID": 135030,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.5900720576461169,
@@ -89,8 +114,8 @@
         {
             "atomType": "Svg",
             "name": "Svg",
-            "x": 0.7526020816653323,
-            "y": 0.46875,
+            "x": 0.7437950360288231,
+            "y": 0.47500000000000003,
             "uniqueID": 850912,
             "ioValues": []
         },
@@ -109,6 +134,31 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.8558847077662131,
+            "y": 0.64375,
+            "uniqueID": 872268,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         },
         {
             "atomType": "Output",
