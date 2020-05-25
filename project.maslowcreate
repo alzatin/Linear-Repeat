@@ -9,8 +9,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.19688473520249222,
-            "y": 0.33125,
+            "x": 0.12249799839871899,
+            "y": 0.275,
             "uniqueID": 815387,
             "ioValues": [
                 {
@@ -26,8 +26,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.30778816199376946,
-            "y": 0.4,
+            "x": 0.3122497998398719,
+            "y": 0.425,
             "uniqueID": 217637,
             "ioValues": [
                 {
@@ -60,8 +60,8 @@
         {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.09607686148919135,
-            "y": 0.7468750000000001,
+            "x": 0.17534027221777423,
+            "y": 0.771875,
             "uniqueID": 808700,
             "ioValues": [
                 {
@@ -74,10 +74,31 @@
             "max": 20
         },
         {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.7950360288230585,
+            "y": 0.28125,
+            "uniqueID": 347704,
+            "ioValues": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7021617293835067,
+            "y": 0.540625,
+            "uniqueID": 252809,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4363490792634107,
-            "y": 0.6875,
+            "x": 0.45636509207365894,
+            "y": 0.775,
             "uniqueID": 995303,
             "ioValues": [
                 {
@@ -85,22 +106,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7045636509207366,
-            "y": 0.534375,
-            "uniqueID": 252809,
-            "ioValues": []
-        },
-        {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.8246597277822257,
-            "y": 0.390625,
-            "uniqueID": 347704,
-            "ioValues": []
         },
         {
             "atomType": "Output",
@@ -131,6 +136,13 @@
             "ap2Primary": true,
             "ap1ID": 152919,
             "ap2ID": 995303
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 697056,
+            "ap2ID": 252809
         },
         {
             "ap1Name": "number",
