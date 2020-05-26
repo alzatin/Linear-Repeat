@@ -148,6 +148,21 @@
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.6845476381104885,
+            "y": 0.6687500000000001,
+            "uniqueID": 657471,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1
+            }
+        },
+        {
             "atomType": "Svg",
             "name": "Svg",
             "x": 0.9575660528422738,
