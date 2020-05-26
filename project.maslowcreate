@@ -42,18 +42,10 @@
             ]
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.36269015212169736,
-            "y": 0.23750000000000002,
-            "uniqueID": 697056,
-            "ioValues": []
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.06485188150520416,
-            "y": 0.5,
+            "x": 0.06405124099279423,
+            "y": 0.425,
             "uniqueID": 152919,
             "ioValues": [
                 {
@@ -61,6 +53,14 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.36269015212169736,
+            "y": 0.23750000000000002,
+            "uniqueID": 697056,
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
@@ -180,17 +180,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 697056,
-            "ap2ID": 252809
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 152919,
             "ap2ID": 995303
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 697056,
+            "ap2ID": 252809
         },
         {
             "ap1Name": "geometry",
