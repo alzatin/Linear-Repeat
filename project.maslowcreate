@@ -65,7 +65,7 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.49239391513210573,
+            "x": 0.4854439592430859,
             "y": 0.290625,
             "uniqueID": 252809,
             "ioValues": [
@@ -124,8 +124,8 @@
         {
             "atomType": "Tag",
             "name": "Add Tag",
-            "x": 0.6413130504403523,
-            "y": 0.21875,
+            "x": 0.6193595342066958,
+            "y": 0.159375,
             "uniqueID": 214610,
             "ioValues": [
                 {
@@ -152,15 +152,6 @@
             ]
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.6026731470230863,
-            "y": 0.4375,
-            "uniqueID": 201025,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
             "atomType": "Constant",
             "name": "Constant",
             "x": 0.05604483586869496,
@@ -179,8 +170,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7734187349879904,
-            "y": 0.34062499999999996,
+            "x": 0.7736535662299854,
+            "y": 0.32499999999999996,
             "uniqueID": 494746,
             "ioValues": [
                 {
@@ -190,19 +181,10 @@
             ]
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.5756605284227382,
-            "y": 0.75,
-            "uniqueID": 232979,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
             "atomType": "Scale",
             "name": "Scale",
-            "x": 0.687171792948237,
-            "y": 0.6875,
+            "x": 0.678311499272198,
+            "y": 0.646875,
             "uniqueID": 542304,
             "ioValues": [
                 {
@@ -214,6 +196,15 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.5756605284227382,
+            "y": 0.75,
+            "uniqueID": 232979,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Add BOM Tag",
