@@ -152,26 +152,10 @@
             ]
         },
         {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.05604483586869496,
-            "y": 0.775,
-            "uniqueID": 808700,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 10
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.5431985294117647,
-            "y": 0.565625,
+            "x": 0.5450367647058824,
+            "y": 0.546875,
             "uniqueID": 588061,
             "ioValues": [
                 {
@@ -261,6 +245,22 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.05604483586869496,
+            "y": 0.775,
+            "uniqueID": 808700,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
         },
         {
             "atomType": "CutLayout",
