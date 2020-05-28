@@ -84,6 +84,31 @@
             "ioValues": []
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.3698424606151538,
+            "y": 0.47500000000000003,
+            "uniqueID": 700862,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.23379923761118168,
@@ -176,8 +201,8 @@
         {
             "atomType": "Add BOM Tag",
             "name": "Add BOM Tag",
-            "x": 0.6778907242693774,
-            "y": 0.696875,
+            "x": 0.778694673668417,
+            "y": 0.61875,
             "uniqueID": 447273,
             "ioValues": [],
             "BOMitem": {
@@ -274,6 +299,13 @@
             "ap2Primary": false,
             "ap1ID": 808700,
             "ap2ID": 217637
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 494746,
+            "ap2ID": 447273
         }
     ],
     "fileTypeVersion": 1,
