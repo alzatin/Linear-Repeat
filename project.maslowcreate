@@ -84,6 +84,19 @@
             "ioValues": []
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.23379923761118168,
+            "y": 0.571875,
+            "uniqueID": 995303,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Tag",
             "name": "Add Tag",
             "x": 0.6413130504403523,
@@ -99,10 +112,14 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2187120291616039,
-            "y": 0.671875,
-            "uniqueID": 995303,
+            "x": 0.44599745870393903,
+            "y": 0.534375,
+            "uniqueID": 334179,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "height",
                     "ioValue": 10
@@ -159,9 +176,9 @@
         {
             "atomType": "Add BOM Tag",
             "name": "Add BOM Tag",
-            "x": 0.6845476381104885,
-            "y": 0.6687500000000001,
-            "uniqueID": 657471,
+            "x": 0.6778907242693774,
+            "y": 0.696875,
+            "uniqueID": 447273,
             "ioValues": [],
             "BOMitem": {
                 "BOMitemName": "name",
@@ -225,13 +242,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 214610,
-            "ap2ID": 494746
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 995303,
@@ -243,6 +253,13 @@
             "ap2Primary": false,
             "ap1ID": 995303,
             "ap2ID": 232979
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 214610,
+            "ap2ID": 494746
         },
         {
             "ap1Name": "number",
