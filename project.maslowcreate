@@ -122,19 +122,6 @@
             ]
         },
         {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.6193595342066958,
-            "y": 0.159375,
-            "uniqueID": 214610,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "Tag String"
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.44599745870393903,
@@ -148,6 +135,19 @@
                 {
                     "name": "height",
                     "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.6626838235294118,
+            "y": 0.24375000000000002,
+            "uniqueID": 214610,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "Tag String"
                 }
             ]
         },
@@ -265,8 +265,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7736535662299854,
-            "y": 0.32499999999999996,
+            "x": 0.8125,
+            "y": 0.346875,
             "uniqueID": 494746,
             "ioValues": [
                 {
@@ -302,10 +302,18 @@
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.9575660528422738,
+            "y": 0.315625,
+            "uniqueID": 347704,
+            "ioValues": []
+        },
+        {
             "atomType": "Add BOM Tag",
             "name": "Add BOM Tag",
-            "x": 0.778694673668417,
-            "y": 0.61875,
+            "x": 0.8529411764705883,
+            "y": 0.659375,
             "uniqueID": 447273,
             "ioValues": [],
             "BOMitem": {
@@ -315,14 +323,6 @@
                 "source": "www.example.com",
                 "totalNeeded": 1
             }
-        },
-        {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.9575660528422738,
-            "y": 0.315625,
-            "uniqueID": 347704,
-            "ioValues": []
         },
         {
             "atomType": "Output",
