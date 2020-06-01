@@ -168,6 +168,15 @@
             "max": 20
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.6259426847662142,
+            "y": 0.46846846846846846,
+            "uniqueID": 341102,
+            "ioValues": [],
+            "selectedColorIndex": 0
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.26452020202020204,
@@ -191,15 +200,6 @@
                     "ioValue": 0
                 }
             ]
-        },
-        {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.5882352941176471,
-            "y": 0.5855855855855856,
-            "uniqueID": 341102,
-            "ioValues": [],
-            "selectedColorIndex": 0
         },
         {
             "atomType": "ShrinkWrap",
