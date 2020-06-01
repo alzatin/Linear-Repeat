@@ -321,6 +321,23 @@
             ]
         },
         {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.7496229260935143,
+            "y": 0.6456456456456456,
+            "uniqueID": 923438,
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 6
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Svg",
             "name": "Svg",
             "x": 0.9575660528422738,
