@@ -152,6 +152,23 @@
             ]
         },
         {
+            "atomType": "Intersection",
+            "name": "Intersection",
+            "x": 0.3340874811463047,
+            "y": 0.6726726726726727,
+            "uniqueID": 511650,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
             "atomType": "Constant",
             "name": "Constant",
             "x": 0.05604483586869496,
@@ -229,23 +246,6 @@
                 {
                     "name": "Spacing",
                     "ioValue": 5
-                }
-            ]
-        },
-        {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.3333333333333333,
-            "y": 0.8408408408408409,
-            "uniqueID": 511650,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
                 }
             ]
         },
