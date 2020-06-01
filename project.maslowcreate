@@ -193,6 +193,15 @@
             ]
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.5882352941176471,
+            "y": 0.5855855855855856,
+            "uniqueID": 341102,
+            "ioValues": [],
+            "selectedColorIndex": 0
+        },
+        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
             "x": 0.3996212121212121,
