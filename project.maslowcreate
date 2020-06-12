@@ -36,10 +36,6 @@
             "uniqueID": 217637,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -64,16 +60,7 @@
             "x": 0.36269015212169736,
             "y": 0.23750000000000002,
             "uniqueID": 697056,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
@@ -129,10 +116,6 @@
             "uniqueID": 995303,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -162,10 +145,6 @@
             "y": 0.24375000000000002,
             "uniqueID": 214610,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "tag",
                     "ioValue": "Tag String"
