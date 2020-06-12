@@ -219,6 +219,19 @@
             ]
         },
         {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7887931034482758,
+            "y": 0.2621359223300971,
+            "uniqueID": 494746,
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 5
+                }
+            ]
+        },
+        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
             "x": 0.3996212121212121,
@@ -235,19 +248,6 @@
                 }
             ],
             "closedSelection": 0
-        },
-        {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.8125,
-            "y": 0.346875,
-            "uniqueID": 494746,
-            "ioValues": [
-                {
-                    "name": "Spacing",
-                    "ioValue": 5
-                }
-            ]
         },
         {
             "atomType": "Stretch",
@@ -366,8 +366,8 @@
         {
             "atomType": "Add BOM Tag",
             "name": "Add BOM Tag",
-            "x": 0.8529411764705883,
-            "y": 0.659375,
+            "x": 0.8479064039408867,
+            "y": 0.6116504854368933,
             "uniqueID": 447273,
             "ioValues": [],
             "BOMitem": {
