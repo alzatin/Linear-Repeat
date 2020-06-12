@@ -250,48 +250,6 @@
             "closedSelection": 0
         },
         {
-            "atomType": "Stretch",
-            "name": "Stretch",
-            "x": 0.48358585858585856,
-            "y": 0.7777777777777777,
-            "uniqueID": 172291,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                },
-                {
-                    "name": "z",
-                    "ioValue": 1
-                }
-            ]
-        },
-        {
-            "atomType": "Scale",
-            "name": "Scale",
-            "x": 0.6773897058823529,
-            "y": 0.63125,
-            "uniqueID": 542304,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "multiple",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Gcode",
             "name": "Gcode",
             "x": 0.9071969696969696,
