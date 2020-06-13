@@ -109,19 +109,6 @@
             ]
         },
         {
-            "atomType": "CutList",
-            "name": "Add To Cutlist",
-            "x": 0.5574940523394132,
-            "y": 0.25889967637540456,
-            "uniqueID": 461759,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.23379923761118168,
@@ -133,6 +120,14 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "CutList",
+            "name": "Add To Cutlist",
+            "x": 0.5892149088025377,
+            "y": 0.3333333333333333,
+            "uniqueID": 461759,
+            "ioValues": []
         },
         {
             "atomType": "Tag",
@@ -254,8 +249,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7755749405233942,
-            "y": 0.3074433656957929,
+            "x": 0.7708168120539254,
+            "y": 0.39805825242718446,
             "uniqueID": 494746,
             "ioValues": [
                 {
@@ -419,7 +414,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 252809,
-            "ap2ID": 341102
+            "ap2ID": 461759
         },
         {
             "ap1Name": "geometry",
@@ -432,7 +427,7 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": 214610,
+            "ap1ID": 461759,
             "ap2ID": 494746
         },
         {
