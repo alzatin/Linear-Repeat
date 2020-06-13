@@ -169,6 +169,39 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.5360824742268041,
+            "y": 0.5533980582524272,
+            "uniqueID": 684020,
+            "ioValues": [
+                {
+                    "name": "Input657070",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input657070",
+                    "x": 0,
+                    "y": 0.58125,
+                    "uniqueID": 198666,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9841395717684377,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Constant",
             "name": "Constant",
             "x": 0.05604483586869496,
