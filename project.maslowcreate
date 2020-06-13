@@ -57,6 +57,10 @@
             "uniqueID": 217637,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -81,7 +85,16 @@
             "x": 0.3600317208564631,
             "y": 0.2233009708737864,
             "uniqueID": 697056,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Difference",
@@ -89,12 +102,7 @@
             "x": 0.3600317208564631,
             "y": 0.2233009708737864,
             "uniqueID": 697056,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Circle",
@@ -131,12 +139,7 @@
             "x": 0.4885011895321173,
             "y": 0.2815533980582524,
             "uniqueID": 252809,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
@@ -179,7 +182,12 @@
             "x": 0.5787944807552651,
             "y": 0.3333333333333333,
             "uniqueID": 461759,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "CutList",
@@ -224,8 +232,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5087609511889862,
-            "y": 0.6499999999999999,
+            "x": 0.5043804755944932,
+            "y": 0.6705882352941177,
             "uniqueID": 378702,
             "ioValues": [],
             "readmeText": "Readme text here bar says this atom is not saving"
