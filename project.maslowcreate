@@ -7,10 +7,31 @@
         {
             "name": "Input657070",
             "ioValue": 10
+        },
+        {
+            "name": "Input657070",
+            "ioValue": 10
         }
     ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.12053925455987312,
+            "y": 0.27184466019417475,
+            "uniqueID": 815387,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 3
+                }
+            ]
+        },
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
@@ -42,6 +63,32 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.21649484536082475,
+            "y": 0.2524271844660194,
+            "uniqueID": 217637,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.06423473433782712,
+            "y": 0.3592233009708738,
+            "uniqueID": 152919,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.06423473433782712,
@@ -63,12 +110,41 @@
             "ioValues": []
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.3600317208564631,
+            "y": 0.2233009708737864,
+            "uniqueID": 697056,
+            "ioValues": []
+        },
+        {
             "atomType": "Input",
             "name": "Input657070",
             "x": 0.013333333333333334,
             "y": 0.5631067961165048,
             "uniqueID": 815113,
             "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Input657070",
+            "x": 0.013333333333333334,
+            "y": 0.5631067961165048,
+            "uniqueID": 815113,
+            "ioValues": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4885011895321173,
+            "y": 0.2815533980582524,
+            "uniqueID": 252809,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -97,6 +173,36 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.23379923761118168,
+            "y": 0.571875,
+            "uniqueID": 995303,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.4123904881101377,
+            "y": 0.47352941176470587,
+            "uniqueID": 753150,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
+            "atomType": "CutList",
+            "name": "Add To Cutlist",
+            "x": 0.5787944807552651,
+            "y": 0.3333333333333333,
+            "uniqueID": 461759,
+            "ioValues": []
+        },
+        {
             "atomType": "CutList",
             "name": "Add To Cutlist",
             "x": 0.5787944807552651,
@@ -119,6 +225,44 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.05604483586869496,
+            "y": 0.775,
+            "uniqueID": 808700,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.5087609511889862,
+            "y": 0.6499999999999999,
+            "uniqueID": 378702,
+            "ioValues": [],
+            "readmeText": "Readme text here bar says this atom is not saving"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7708168120539254,
+            "y": 0.39805825242718446,
+            "uniqueID": 494746,
+            "ioValues": [
+                {
+                    "name": "Spacing",
+                    "ioValue": 5
+                }
+            ]
         },
         {
             "atomType": "CutLayout",
@@ -163,6 +307,43 @@
             ]
         },
         {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.9071969696969696,
+            "y": 0.3063063063063063,
+            "uniqueID": 908550,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": "true"
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.9644153957879449,
+            "y": 0.29449838187702265,
+            "uniqueID": 347704,
+            "ioValues": []
+        },
+        {
             "atomType": "Svg",
             "name": "Svg",
             "x": 0.9644153957879449,
@@ -177,6 +358,29 @@
             "y": 0.5048543689320388,
             "uniqueID": 919763,
             "ioValues": []
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.9249084249084248,
+            "y": 0.5048543689320388,
+            "uniqueID": 919763,
+            "ioValues": []
+        },
+        {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.8547567175018155,
+            "y": 0.7313915857605178,
+            "uniqueID": 447273,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1
+            }
         },
         {
             "atomType": "Add BOM Tag",
@@ -211,10 +415,31 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 815387,
+            "ap2ID": 217637
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 217637,
             "ap2ID": 697056
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 217637,
+            "ap2ID": 697056
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 152919,
+            "ap2ID": 995303
         },
         {
             "ap1Name": "geometry",
@@ -232,6 +457,20 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 697056,
+            "ap2ID": 252809
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 252809,
+            "ap2ID": 461759
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 252809,
@@ -243,6 +482,20 @@
             "ap2Primary": false,
             "ap1ID": 995303,
             "ap2ID": 697056
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 995303,
+            "ap2ID": 697056
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 461759,
+            "ap2ID": 494746
         },
         {
             "ap1Name": "geometry",
@@ -264,6 +517,27 @@
             "ap2Primary": false,
             "ap1ID": 808700,
             "ap2ID": 217637
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 808700,
+            "ap2ID": 995303
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 808700,
+            "ap2ID": 217637
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 494746,
+            "ap2ID": 447273
         },
         {
             "ap1Name": "geometry",
