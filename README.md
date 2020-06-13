@@ -4,12 +4,3 @@
 
 ![](/project.svg)
 
-## Molecule
-
-
-Readme text here
-
-
-Readme text here
-
-

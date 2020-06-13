@@ -84,31 +84,6 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.3698424606151538,
-            "y": 0.47500000000000003,
-            "uniqueID": 700862,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.23379923761118168,
@@ -130,82 +105,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.44176706827309237,
-            "y": 0.5210355987055016,
-            "uniqueID": 102697,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.6602760736196319,
-            "y": 0.19741100323624594,
-            "uniqueID": 214610,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "Tag String"
-                }
-            ]
-        },
-        {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.3340874811463047,
-            "y": 0.6726726726726727,
-            "uniqueID": 511650,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.5360824742268041,
-            "y": 0.5533980582524272,
-            "uniqueID": 684020,
-            "ioValues": [
-                {
-                    "name": "Input657070",
-                    "ioValue": 10
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Input657070",
-                    "x": 0.013333333333333334,
-                    "y": 0.58125,
-                    "uniqueID": 198666,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9841395717684377,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
             "atomType": "Constant",
             "name": "Constant",
             "x": 0.05604483586869496,
@@ -222,49 +121,6 @@
             "max": 20
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.6259426847662142,
-            "y": 0.46846846846846846,
-            "uniqueID": 341102,
-            "ioValues": [],
-            "selectedColorIndex": 0
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.26452020202020204,
-            "y": 0.7597597597597597,
-            "uniqueID": 929007,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.6894171779141104,
-            "y": 0.5242718446601942,
-            "uniqueID": 489987,
-            "ioValues": [],
-            "readmeText": "Readme text here"
-        },
-        {
             "atomType": "CutLayout",
             "name": "Cut Layout",
             "x": 0.7708168120539254,
@@ -276,42 +132,6 @@
                     "ioValue": 5
                 }
             ]
-        },
-        {
-            "atomType": "ShrinkWrap",
-            "name": "Shrink Wrap",
-            "x": 0.3996212121212121,
-            "y": 0.7777777777777777,
-            "uniqueID": 374740,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                }
-            ],
-            "closedSelection": 0
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.5368098159509203,
-            "y": 0.7605177993527508,
-            "uniqueID": 739810,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                }
-            ],
-            "currentEquation": "x + y"
         },
         {
             "atomType": "Gcode",
@@ -341,32 +161,6 @@
                     "ioValue": 6
                 }
             ]
-        },
-        {
-            "atomType": "RegularPolygon",
-            "name": "RegularPolygon",
-            "x": 0.7423312883435583,
-            "y": 0.6537216828478964,
-            "uniqueID": 923438,
-            "ioValues": [
-                {
-                    "name": "number of sides",
-                    "ioValue": 6
-                },
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.6372699386503068,
-            "y": 0.7734627831715211,
-            "uniqueID": 624730,
-            "ioValues": [],
-            "readmeText": "Readme text here"
         },
         {
             "atomType": "Svg",
