@@ -278,6 +278,15 @@
             "closedSelection": 0
         },
         {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.692084241103849,
+            "y": 0.5566343042071197,
+            "uniqueID": 489987,
+            "ioValues": [],
+            "readmeText": "Readme text here"
+        },
+        {
             "atomType": "Gcode",
             "name": "Gcode",
             "x": 0.9071969696969696,
