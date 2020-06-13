@@ -132,8 +132,8 @@
         {
             "atomType": "Tag",
             "name": "Add Tag",
-            "x": 0.6673928830791576,
-            "y": 0.20064724919093854,
+            "x": 0.6602760736196319,
+            "y": 0.19741100323624594,
             "uniqueID": 214610,
             "ioValues": [
                 {
@@ -247,6 +247,15 @@
             ]
         },
         {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.6894171779141104,
+            "y": 0.5242718446601942,
+            "uniqueID": 489987,
+            "ioValues": [],
+            "readmeText": "Readme text here"
+        },
+        {
             "atomType": "CutLayout",
             "name": "Cut Layout",
             "x": 0.7708168120539254,
@@ -278,13 +287,22 @@
             "closedSelection": 0
         },
         {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.692084241103849,
-            "y": 0.5566343042071197,
-            "uniqueID": 489987,
-            "ioValues": [],
-            "readmeText": "Readme text here"
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.5368098159509203,
+            "y": 0.7605177993527508,
+            "uniqueID": 739810,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y"
         },
         {
             "atomType": "Gcode",
@@ -318,8 +336,8 @@
         {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.7496229260935143,
-            "y": 0.6456456456456456,
+            "x": 0.7423312883435583,
+            "y": 0.6537216828478964,
             "uniqueID": 923438,
             "ioValues": [
                 {
@@ -333,30 +351,21 @@
             ]
         },
         {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.6372699386503068,
+            "y": 0.7734627831715211,
+            "uniqueID": 624730,
+            "ioValues": [],
+            "readmeText": "Readme text here"
+        },
+        {
             "atomType": "Svg",
             "name": "Svg",
             "x": 0.9644153957879449,
             "y": 0.29449838187702265,
             "uniqueID": 347704,
             "ioValues": []
-        },
-        {
-            "atomType": "Equation",
-            "name": "Equation",
-            "x": 0.6176470588235294,
-            "y": 0.8018018018018018,
-            "uniqueID": 739810,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                }
-            ],
-            "currentEquation": "x + y"
         },
         {
             "atomType": "Stl",
