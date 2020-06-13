@@ -109,6 +109,19 @@
             ]
         },
         {
+            "atomType": "CutList",
+            "name": "Add To Cutlist",
+            "x": 0.5574940523394132,
+            "y": 0.25889967637540456,
+            "uniqueID": 461759,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.23379923761118168,
@@ -400,6 +413,13 @@
             "ap2Primary": false,
             "ap1ID": 697056,
             "ap2ID": 252809
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 252809,
+            "ap2ID": 341102
         },
         {
             "ap1Name": "geometry",
