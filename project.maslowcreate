@@ -63,6 +63,14 @@
             "ioValues": []
         },
         {
+            "atomType": "Input",
+            "name": "Input657070",
+            "x": 0.013333333333333334,
+            "y": 0.5631067961165048,
+            "uniqueID": 815113,
+            "ioValues": []
+        },
+        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.4885011895321173,
@@ -74,14 +82,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Input",
-            "name": "Input657070",
-            "x": 0.03763010408326661,
-            "y": 0.58125,
-            "uniqueID": 815113,
-            "ioValues": []
         },
         {
             "atomType": "Translate",
@@ -180,7 +180,7 @@
                 {
                     "atomType": "Input",
                     "name": "Input657070",
-                    "x": 0,
+                    "x": 0.013333333333333334,
                     "y": 0.58125,
                     "uniqueID": 198666,
                     "ioValues": []
