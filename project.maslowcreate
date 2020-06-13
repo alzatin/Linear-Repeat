@@ -44,8 +44,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.03341433778857837,
-            "y": 0.35,
+            "x": 0.06423473433782712,
+            "y": 0.3592233009708738,
             "uniqueID": 152919,
             "ioValues": [
                 {
@@ -57,16 +57,16 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.36269015212169736,
-            "y": 0.23750000000000002,
+            "x": 0.3600317208564631,
+            "y": 0.2233009708737864,
             "uniqueID": 697056,
             "ioValues": []
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.4854439592430859,
-            "y": 0.290625,
+            "x": 0.4885011895321173,
+            "y": 0.2815533980582524,
             "uniqueID": 252809,
             "ioValues": [
                 {
@@ -122,29 +122,16 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.44599745870393903,
-            "y": 0.534375,
-            "uniqueID": 334179,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Tag",
             "name": "Add Tag",
             "x": 0.6626838235294118,
             "y": 0.24375000000000002,
             "uniqueID": 214610,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "tag",
                     "ioValue": "Tag String"
@@ -254,8 +241,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7887931034482758,
-            "y": 0.2621359223300971,
+            "x": 0.7755749405233942,
+            "y": 0.3074433656957929,
             "uniqueID": 494746,
             "ioValues": [
                 {
@@ -413,13 +400,6 @@
             "ap2Primary": false,
             "ap1ID": 697056,
             "ap2ID": 252809
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 252809,
-            "ap2ID": 214610
         },
         {
             "ap1Name": "geometry",
