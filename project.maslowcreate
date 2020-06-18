@@ -36,6 +36,10 @@
             "uniqueID": 217637,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -47,7 +51,16 @@
             "x": 0.3473091364205257,
             "y": 0.411764705882353,
             "uniqueID": 697056,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -113,13 +126,6 @@
                     "y": 0.5631067961165048,
                     "uniqueID": 922073,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9874843554443054,
-                    "y": 0.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -148,6 +154,10 @@
             "y": 0.8441176470588235,
             "uniqueID": 995303,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "height",
                     "ioValue": 10
@@ -222,13 +232,6 @@
                 "source": "www.example.com",
                 "totalNeeded": 1
             }
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9767814251401121,
-            "y": 0.903125,
-            "ioValues": []
         }
     ],
     "allConnectors": [
