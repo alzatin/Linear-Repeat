@@ -50,19 +50,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.471278567016677,
-            "y": 0.28852459016393445,
-            "uniqueID": 252809,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.07321652065081352,
@@ -84,24 +71,28 @@
             "ioValues": []
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.4399249061326659,
-            "y": 0.47941176470588237,
-            "uniqueID": 753150,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4571843251088535,
+            "y": 0.3409836065573771,
+            "uniqueID": 252809,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.5638297872340425,
-            "y": 0.3383458646616541,
+            "x": 0.5616835994194485,
+            "y": 0.3278688524590164,
             "uniqueID": 521810,
             "ioValues": [
                 {
                     "name": "Input657070",
-                    "ioValue": 10
+                    "ioValue": 12
                 }
             ],
             "topLevel": false,
@@ -124,6 +115,15 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.4399249061326659,
+            "y": 0.47941176470588237,
+            "uniqueID": 753150,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Constant",
@@ -161,7 +161,7 @@
             "y": 0.6917293233082706,
             "uniqueID": 378702,
             "ioValues": [],
-            "readmeText": "Readme text  "
+            "readmeText": "Readme textÂ Â "
         },
         {
             "atomType": "Gcode",
