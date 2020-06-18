@@ -7,6 +7,6 @@
 ## Molecule
 
 
-If i was a cowboy i would have a pet lizard
+If i was a cowboy i would have a pet scorpion
 
 
