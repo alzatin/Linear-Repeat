@@ -63,18 +63,10 @@
             ]
         },
         {
-            "atomType": "Input",
-            "name": "Input657070",
-            "x": 0.013333333333333334,
-            "y": 0.5631067961165048,
-            "uniqueID": 815113,
-            "ioValues": []
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.07259073842302878,
-            "y": 0.5676691729323309,
+            "x": 0.07321652065081352,
+            "y": 0.556390977443609,
             "uniqueID": 152919,
             "ioValues": [
                 {
@@ -84,6 +76,14 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "Input657070",
+            "x": 0.013333333333333334,
+            "y": 0.5631067961165048,
+            "uniqueID": 815113,
+            "ioValues": []
+        },
+        {
             "atomType": "Code",
             "name": "Code",
             "x": 0.4399249061326659,
@@ -91,27 +91,6 @@
             "uniqueID": 753150,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
-            "atomType": "CutList",
-            "name": "Add To Cutlist",
-            "x": 0.5787944807552651,
-            "y": 0.3333333333333333,
-            "uniqueID": 461759,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
-            "atomType": "CutList",
-            "name": "Add To Cutlist",
-            "x": 0.5787944807552651,
-            "y": 0.3333333333333333,
-            "uniqueID": 461759,
-            "ioValues": []
         },
         {
             "atomType": "Constant",
@@ -130,26 +109,13 @@
             "max": 20
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.7377972465581978,
-            "y": 0.35640138408304495,
-            "uniqueID": 494746,
-            "ioValues": [
-                {
-                    "name": "Spacing",
-                    "ioValue": 5
-                }
-            ]
-        },
-        {
             "atomType": "Readme",
             "name": "README",
             "x": 0.5519399249061326,
             "y": 0.6705882352941177,
             "uniqueID": 378702,
             "ioValues": [],
-            "readmeText": "Readme text hereÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ "
+            "readmeText": "Readme text hereÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ "
         },
         {
             "atomType": "Extrude",
@@ -286,31 +252,10 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 252809,
-            "ap2ID": 461759
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 152919,
             "ap2ID": 995303
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 461759,
-            "ap2ID": 494746
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 461759,
-            "ap2ID": 494746
-        },
-        {
             "ap1Name": "number",
             "ap2Name": "height",
             "ap2Primary": false,
@@ -330,20 +275,6 @@
             "ap2Primary": false,
             "ap1ID": 808700,
             "ap2ID": 217637
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 494746,
-            "ap2ID": 447273
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 494746,
-            "ap2ID": 447273
         },
         {
             "ap1Name": "geometry",
