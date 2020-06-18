@@ -7,6 +7,6 @@
 ## Molecule
 
 
-Readme text here bar
+Readme text here 
 
 

@@ -44,13 +44,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.07321652065081352,
-            "y": 0.4809688581314879,
+            "x": 0.08153180975911056,
+            "y": 0.48196721311475416,
             "uniqueID": 152919,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 12
                 }
             ]
         },
@@ -65,8 +65,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.47309236947791167,
-            "y": 0.284789644012945,
+            "x": 0.471278567016677,
+            "y": 0.28852459016393445,
             "uniqueID": 252809,
             "ioValues": [
                 {
@@ -158,11 +158,11 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5481852315394242,
-            "y": 0.7181818181818181,
+            "x": 0.5460160592958616,
+            "y": 0.7016393442622951,
             "uniqueID": 378702,
             "ioValues": [],
-            "readmeText": "Readme text here bar"
+            "readmeText": "Readme text here "
         },
         {
             "atomType": "Gcode",
