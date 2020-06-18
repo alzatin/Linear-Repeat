@@ -6,7 +6,7 @@
     "ioValues": [
         {
             "name": "Input657070",
-            "ioValue": 9
+            "ioValue": 12
         }
     ],
     "topLevel": true,
@@ -142,6 +142,15 @@
             "max": 20
         },
         {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.5469336670838548,
+            "y": 0.6694214876033058,
+            "uniqueID": 378702,
+            "ioValues": [],
+            "readmeText": " if i was a cowboy Readme text "
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.22215269086357947,
@@ -153,15 +162,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.5463078848560701,
-            "y": 0.6917293233082706,
-            "uniqueID": 378702,
-            "ioValues": [],
-            "readmeText": "Readme textÃÂ ÃÂ "
         },
         {
             "atomType": "Gcode",

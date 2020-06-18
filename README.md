@@ -7,6 +7,6 @@
 ## Molecule
 
 
-Readme textÃÂ ÃÂ 
+ if i was a cowboy Readme text 
 
 
