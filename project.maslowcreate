@@ -14,13 +14,13 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.102322206095791,
-            "y": 0.2754098360655738,
+            "x": 0.10014513788098693,
+            "y": 0.29508196721311475,
             "uniqueID": 815387,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 12
                 },
                 {
                     "name": "y length",
@@ -157,11 +157,11 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5928882438316401,
-            "y": 0.6491803278688525,
+            "x": 0.5849056603773585,
+            "y": 0.6688524590163935,
             "uniqueID": 341798,
             "ioValues": [],
-            "readmeText": "If i was a cowboy"
+            "readmeText": "If i was a cowboy i would have a pet lizard"
         },
         {
             "atomType": "Gcode",
