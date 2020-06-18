@@ -158,11 +158,11 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5460160592958616,
-            "y": 0.7016393442622951,
+            "x": 0.5435453983940703,
+            "y": 0.7344262295081968,
             "uniqueID": 378702,
             "ioValues": [],
-            "readmeText": "Readme text hereÃÂÃÂ "
+            "readmeText": "Readme text here barbbbb "
         },
         {
             "atomType": "Gcode",
