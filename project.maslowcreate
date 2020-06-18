@@ -6,7 +6,7 @@
     "ioValues": [
         {
             "name": "Input657070",
-            "ioValue": 13
+            "ioValue": 15
         }
     ],
     "topLevel": true,
@@ -14,17 +14,17 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.09869375907111756,
-            "y": 0.3016393442622951,
+            "x": 0.102322206095791,
+            "y": 0.2754098360655738,
             "uniqueID": 815387,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 15
+                    "ioValue": 10
                 },
                 {
                     "name": "y length",
-                    "ioValue": 3
+                    "ioValue": 10
                 }
             ]
         },
@@ -95,8 +95,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.5776487663280117,
-            "y": 0.3344262295081967,
+            "x": 0.5783744557329463,
+            "y": 0.32131147540983607,
             "uniqueID": 521810,
             "ioValues": [
                 {
@@ -142,15 +142,6 @@
             "max": 20
         },
         {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.5469336670838548,
-            "y": 0.6694214876033058,
-            "uniqueID": 378702,
-            "ioValues": [],
-            "readmeText": "ÃÂ if i was a cowboy Readme textÃÂ "
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.22215269086357947,
@@ -162,6 +153,15 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.5928882438316401,
+            "y": 0.6491803278688525,
+            "uniqueID": 341798,
+            "ioValues": [],
+            "readmeText": "If i was a cowboy"
         },
         {
             "atomType": "Gcode",
