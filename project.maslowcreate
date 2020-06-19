@@ -12,23 +12,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.10387984981226532,
-            "y": 0.30165289256198347,
-            "uniqueID": 815387,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 15
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.21526104417670683,
@@ -36,18 +19,14 @@
             "uniqueID": 217637,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "height",
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.3460575719649562,
-            "y": 0.4214876033057851,
-            "uniqueID": 697056,
-            "ioValues": []
         },
         {
             "atomType": "Input",
@@ -56,19 +35,6 @@
             "y": 0.5631067961165048,
             "uniqueID": 815113,
             "ioValues": []
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.4571843251088535,
-            "y": 0.3409836065573771,
-            "uniqueID": 252809,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Circle",
@@ -82,15 +48,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.4399249061326659,
-            "y": 0.47941176470588237,
-            "uniqueID": 753150,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Molecule",
@@ -140,15 +97,6 @@
             "evolve": false,
             "min": 0,
             "max": 20
-        },
-        {
-            "atomType": "Readme",
-            "name": "README",
-            "x": 0.5769712140175218,
-            "y": 0.6487603305785123,
-            "uniqueID": 341798,
-            "ioValues": [],
-            "readmeText": "If i was a cowboy i would have a pet scorpion"
         },
         {
             "atomType": "Extrude",
@@ -234,45 +182,10 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 815387,
-            "ap2ID": 217637
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 815387,
-            "ap2ID": 217637
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 217637,
             "ap2ID": 697056
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 217637,
-            "ap2ID": 697056
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 697056,
-            "ap2ID": 252809
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 697056,
-            "ap2ID": 252809
         },
         {
             "ap1Name": "geometry",
@@ -301,13 +214,6 @@
             "ap2Primary": false,
             "ap1ID": 808700,
             "ap2ID": 217637
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 995303,
-            "ap2ID": 697056
         }
     ],
     "fileTypeVersion": 1,
