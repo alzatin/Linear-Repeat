@@ -7,6 +7,10 @@
         {
             "name": "Input657070",
             "ioValue": 18
+        },
+        {
+            "name": "Input657070",
+            "ioValue": 18
         }
     ],
     "topLevel": true,
@@ -29,6 +33,31 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.34388009991673607,
+            "y": 0.4426229508196722,
+            "uniqueID": 217637,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Input657070",
+            "x": 0.013333333333333334,
+            "y": 0.5631067961165048,
+            "uniqueID": 815113,
+            "ioValues": []
+        },
+        {
             "atomType": "Input",
             "name": "Input657070",
             "x": 0.013333333333333334,
@@ -48,6 +77,52 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.08135168961201501,
+            "y": 0.5950413223140496,
+            "uniqueID": 152919,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.5783744557329463,
+            "y": 0.32131147540983607,
+            "uniqueID": 521810,
+            "ioValues": [
+                {
+                    "name": "Input657070",
+                    "ioValue": 12
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input657070",
+                    "x": 0.013333333333333334,
+                    "y": 0.5631067961165048,
+                    "uniqueID": 922073,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9874843554443054,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Molecule",
@@ -99,6 +174,35 @@
             "max": 20
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.05604483586869496,
+            "y": 0.775,
+            "uniqueID": 808700,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.22215269086357947,
+            "y": 0.8441176470588235,
+            "uniqueID": 995303,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.22215269086357947,
@@ -141,11 +245,56 @@
             ]
         },
         {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.9071969696969696,
+            "y": 0.3063063063063063,
+            "uniqueID": 908550,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": "true"
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
             "atomType": "Svg",
             "name": "Svg",
             "x": 0.9644153957879449,
             "y": 0.29449838187702265,
             "uniqueID": 347704,
+            "ioValues": []
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.9644153957879449,
+            "y": 0.29449838187702265,
+            "uniqueID": 347704,
+            "ioValues": []
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.9249084249084248,
+            "y": 0.5048543689320388,
+            "uniqueID": 919763,
             "ioValues": []
         },
         {
@@ -177,6 +326,21 @@
                 "source": "www.example.com",
                 "totalNeeded": 1
             }
+        },
+        {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.8547567175018155,
+            "y": 0.7313915857605178,
+            "uniqueID": 447273,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1
+            }
         }
     ],
     "allConnectors": [
@@ -186,6 +350,34 @@
             "ap2Primary": true,
             "ap1ID": 152919,
             "ap2ID": 995303
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 152919,
+            "ap2ID": 995303
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 808700,
+            "ap2ID": 995303
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 808700,
+            "ap2ID": 217637
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 808700,
+            "ap2ID": 217637
         },
         {
             "ap1Name": "number",
