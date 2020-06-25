@@ -9,8 +9,8 @@
             "ioValue": 18
         },
         {
-            "name": "Number of repeats",
-            "ioValue": 18
+            "name": "Geometry",
+            "ioValue": 10
         },
         {
             "name": "x distance",
@@ -64,11 +64,11 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 18
+                    "ioValue": 10
                 },
                 {
                     "name": "repeat",
-                    "ioValue": 18
+                    "ioValue": 10
                 },
                 {
                     "name": "x",
