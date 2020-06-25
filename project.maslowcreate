@@ -1,44 +1,94 @@
 {
     "atomType": "Molecule",
-    "name": "Molecule",
+    "name": "Linear Repeat",
     "x": 0,
     "y": 0,
     "ioValues": [
         {
-            "name": "Input657070",
+            "name": "Number of repeats",
             "ioValue": 18
         },
         {
-            "name": "Input657070",
+            "name": "Number of repeats",
             "ioValue": 18
+        },
+        {
+            "name": "x distance",
+            "ioValue": 10
+        },
+        {
+            "name": "y distance",
+            "ioValue": 10
         }
     ],
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Input",
+            "name": "Number of repeats",
+            "x": 0.013333333333333334,
+            "y": 0.2565597667638484,
+            "uniqueID": 815113,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Geometry",
+            "x": 0.013333333333333334,
+            "y": 0.4227405247813411,
+            "uniqueID": 815113,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "x distance",
+            "x": 0.013333333333333334,
+            "y": 0.5743440233236151,
+            "uniqueID": 542142,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "y distance",
+            "x": 0.013333333333333334,
+            "y": 0.6763848396501457,
+            "uniqueID": 681351,
+            "ioValues": []
+        },
+        {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.3782166367444644,
-            "y": 0.4052478134110787,
+            "x": 0.4859101294744859,
+            "y": 0.5189504373177842,
             "uniqueID": 632762,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 18
+                },
+                {
+                    "name": "repeat",
+                    "ioValue": 18
+                },
+                {
+                    "name": "x",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y",
+                    "ioValue": 10
+                }
+            ],
+            "code": "//input1 geometry\n//input2 number of items to repeat\n\nfunction main(geometry,repeat,x,y){\n\tvar things= [];\n\tfor(var i=1;i<=repeat;i++){\n     var newThing = geometry.move(x*i,y*i,0)\n     things.push(newThing)\n    }\n  return Assembly(...things);        //return must be geometry;\n}\n\nreturn main(geometry,repeat,x,y)"
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.7159177456207159,
+            "y": 0.33527696793002915,
+            "uniqueID": 995351,
             "ioValues": [],
-            "code": "function main(Input1, Input2){\n  return Assembly(Sphere(40).move(10,100,10), Cube(5));        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
-            "atomType": "Input",
-            "name": "Input657070",
-            "x": 0.013333333333333334,
-            "y": 0.5631067961165048,
-            "uniqueID": 815113,
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "Input657070",
-            "x": 0.013333333333333334,
-            "y": 0.5631067961165048,
-            "uniqueID": 815113,
-            "ioValues": []
+            "readmeText": "Repeat geometry in a straight line"
         },
         {
             "atomType": "Output",
@@ -48,7 +98,42 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "repeat",
+            "ap2Primary": false,
+            "ap1ID": 815113,
+            "ap2ID": 632762
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 815113,
+            "ap2ID": 632762
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 542142,
+            "ap2ID": 632762
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 681351,
+            "ap2ID": 632762
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 632762
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
