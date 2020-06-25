@@ -48,24 +48,12 @@
             "ioValues": []
         },
         {
-            "atomType": "Input",
-            "name": "y distance",
-            "x": 0.013333333333333334,
-            "y": 0.6763848396501457,
-            "uniqueID": 681351,
-            "ioValues": []
-        },
-        {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.4859101294744859,
-            "y": 0.5189504373177842,
+            "x": 0.507996953541508,
+            "y": 0.31195335276967934,
             "uniqueID": 632762,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 10
-                },
                 {
                     "name": "repeat",
                     "ioValue": 10
@@ -80,6 +68,36 @@
                 }
             ],
             "code": "//input1 geometry\n//input2 number of items to repeat\n\nfunction main(geometry,repeat,x,y){\n\tvar things= [];\n\tfor(var i=1;i<=repeat;i++){\n     var newThing = geometry.move(x*i,y*i,0)\n     things.push(newThing)\n    }\n  return Assembly(...things);        //return must be geometry;\n}\n\nreturn main(geometry,repeat,x,y)"
+        },
+        {
+            "atomType": "Input",
+            "name": "y distance",
+            "x": 0.013333333333333334,
+            "y": 0.6763848396501457,
+            "uniqueID": 681351,
+            "ioValues": []
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "SPINDLE",
+            "x": 0.4242193450114243,
+            "y": 0.641399416909621,
+            "uniqueID": 452922,
+            "projectID": "273768522",
+            "ioValues": [
+                {
+                    "name": "tenon",
+                    "ioValue": 10
+                },
+                {
+                    "name": "widest spindle diameterÃÂ ",
+                    "ioValue": 10
+                },
+                {
+                    "name": "spindle length",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Readme",
@@ -108,17 +126,16 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 815113,
-            "ap2ID": 632762
-        },
-        {
-            "ap1Name": "number or geometry",
             "ap2Name": "x",
             "ap2Primary": false,
             "ap1ID": 542142,
             "ap2ID": 632762
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 632762
         },
         {
             "ap1Name": "number or geometry",
@@ -128,10 +145,11 @@
             "ap2ID": 632762
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": 632762
+            "ap1ID": 452922,
+            "ap2ID": 632762
         }
     ],
     "fileTypeVersion": 1,
