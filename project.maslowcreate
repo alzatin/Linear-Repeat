@@ -16,34 +16,13 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.15570358034970858,
-            "y": 0.3672131147540984,
-            "uniqueID": 701202,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 12
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.32805995004163196,
-            "y": 0.32459016393442625,
-            "uniqueID": 703441,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 20
-                }
-            ]
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.38420107719928187,
+            "y": 0.4052478134110787,
+            "uniqueID": 632762,
+            "ioValues": [],
+            "code": "function main(Input1, Input2){\n  return Assembly(Sphere(40).move(10,100,10), Cube(5));        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Input",
@@ -60,40 +39,6 @@
             "y": 0.5631067961165048,
             "uniqueID": 815113,
             "ioValues": []
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.4304746044962531,
-            "y": 0.4557377049180328,
-            "uniqueID": 669012,
-            "ioValues": []
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.15986677768526228,
-            "y": 0.6065573770491803,
-            "uniqueID": 437175,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.33222314737718567,
-            "y": 0.5934426229508196,
-            "uniqueID": 630405,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Output",
@@ -103,42 +48,7 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 701202,
-            "ap2ID": 703441
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 703441,
-            "ap2ID": 669012
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 669012
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 437175,
-            "ap2ID": 630405
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 630405,
-            "ap2ID": 669012
-        }
-    ],
+    "allConnectors": [],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
