@@ -5,19 +5,19 @@
     "y": 0,
     "ioValues": [
         {
-            "name": "x distance",
-            "ioValue": 10
-        },
-        {
-            "name": "y distance",
-            "ioValue": 10
-        },
-        {
             "name": "Geometry",
             "ioValue": 10
         },
         {
             "name": "repeats",
+            "ioValue": 10
+        },
+        {
+            "name": "x distance",
+            "ioValue": 10
+        },
+        {
+            "name": "y distance",
             "ioValue": 10
         }
     ],
@@ -80,28 +80,6 @@
             "y": 0.6763848396501457,
             "uniqueID": 681351,
             "ioValues": []
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "SPINDLE",
-            "x": 0.3602437166793602,
-            "y": 0.6384839650145773,
-            "uniqueID": 590655,
-            "projectID": "273768522",
-            "ioValues": [
-                {
-                    "name": "tenon",
-                    "ioValue": 10
-                },
-                {
-                    "name": "widest spindle diameterÃÂ ",
-                    "ioValue": 10
-                },
-                {
-                    "name": "spindle length",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Readme",
